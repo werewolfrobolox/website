@@ -6,6 +6,13 @@
     <title>basic website</title>
     <script  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <style>
+       #greenimage{
+        max-width: 700.33px;
+        max-height:600.00px ;
+    
+
+       }
+
         #logo{
             text-align: center;
             
@@ -38,7 +45,35 @@
         #spacebelow{
           background-color: #122c12;
           font-family: monospace;
+          
+        
         }
+        #body{
+          background-color: #122c12
+          
+        }
+        .navbar{
+          color: #fff;
+        }
+        #Prevention{
+          font-family: monospace;
+
+
+        }
+        #Causes_and_Effects
+      {
+        font-family: monospace;
+
+      }
+      #Home{
+        font-family: monospace;
+
+      }
+      #Types{
+        font-family: monospace;
+
+      }
+
 
 
 
@@ -48,29 +83,28 @@
      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark">
+<body id="body" >
 
 
-
-    <nav class="nav justify-content-start bg-dark " >
+    <nav  class="navbar nav justify-content-start   " >
         
         <li><div id="logo" class ="text-start "><img width="98px" height="35px" src="assets/homepage/logo-removebg-preview.png" class="" ></div></li>
         
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a id="Home" class="nav-link active text-light" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Types</a>
+          <a id="Types" class="nav-link text-light" href="#">Types</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Causes and Effects</a>
+          <a id="Causes_and_Effects" class="nav-link text-light" href="#">Causes and Effects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Prevention</a>
+          <a id="Prevention" class="nav-link text-light" href="#">Prevention</a>
         </li>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid" id="jumbotron"> 
+        <div  class="jumbotron jumbotron-fluid" id="jumbotron"> 
             <div id="lines"   class="container"> 
               <h1 class="display-3  text-center">Stop cyberbullying</h1> 
               <p class="fs-3  text-center  ">Touch grass instead</p> 
@@ -87,32 +121,26 @@
           </div>
         <div id="spacebelow" class="container-fluid text-light text-align">
           <br>
-          <h1 class="row">
+          <div class="row">
+          <div class="col-md-6">
+          <h1>
             What is Harassment (Cyberbullying)?
           </h1>
-          <div>
-            <img src="assets/homepage/green.png" >
-          
-          </div>
-          <br>
-          <h3 class="row ">In cyberbullying, harassment refers to the persistent and unwanted behaviour that is intended to harm, threaten, or intimidate someone.
-
-          </h3>
-          <h3>This includes an act of using digital platforms or communication tools to intimidate, threaten, humiliate, or cause distress to an specific individual or a group.
-
-          </h3>
+       
           <hr>
-           
-        
+          <ul><li>In cyberbullying, harassment refers to the persistent and unwanted behaviour that is intended to harm, threaten, or intimidate someone.</li>
+
+          
+          <li>This includes an act of using digital platforms or communication tools to intimidate, threaten, humiliate, or cause distress to an specific individual or a group.</li>
+
+          </ul>
+          <hr>
         
           <h3>
             What are some examples of harassment?
 
           </h3>
           <hr>
-
-
-        
          
           <ul>
             <li>Repeatedly sending offensive, rude, and insulting messages to someone via SMS, social media accounts, message board.
@@ -121,6 +149,23 @@
 
             </li>
           </ul>
+          <hr>
+          <h5>
+            Are You a victim of cyberbullying?
+            
+          </h5>
+          <br>
+          <h5>
+            Click the link below(To get help).
+          </h5>
+
+          <a  href="www.tinklefriend.sg">Helpline</a>
+        </div>
+          <div  class="col-md-6">
+            <img id="greenimage" src="assets/homepage/green.png" >
+          </div>
+        
+      </div>
 
           
 
