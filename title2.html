@@ -11,17 +11,55 @@
     <style>
 #background{
 background: rgb(43,204,208);
-background: linear-gradient(304deg, rgba(43,204,208,1) 32%, rgba(13,189,46,1) 54%, rgba(155,207,65,1) 71%)}
+background: linear-gradient(304deg, rgba(43,204,208,1) 32%, rgba(13,189,46,1) 54%, rgba(155,207,65,1) 71%)
+
+}
+
+#carouselExample{
+  /* max-width: 600px;
+  max-height: 400px; */
+  width:50%;
+margin: auto;
+
+}
+
+.body1 {
+  text-align: center;
+}
+
+
     </style>
 </head>
-<body id="background">
+<body id="background" >
+  <nav  class="navbar nav justify-content-start   " >
+        
+    <li><div id="logo" class ="text-start "><img width="98px" height="35px" src="assets/homepage/logo-removebg-preview.png" class="" ></div></li>
+    
+    <li class="nav-item">
+      <a id="Home" class="nav-link active text-light" aria-current="page" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a id="Types" class="nav-link text-light" href="title2.html">Types</a>
+    </li>
+    <li class="nav-item">
+      <a id="Causes_and_Effects" class="nav-link text-light" href="#">Causes and Effects</a>
+    </li>
+    <li class="nav-item">
+      <a id="Prevention" class="nav-link text-light" href="#">Prevention</a>
+    </li>
+    </nav>
+
+    <div class="container-fluid body1">
+      <h1>Types of Cyberbullying</h1>
+    </div>
+
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
+            <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
+            <img id="threats" src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
           </div>
         
         </div>
@@ -34,6 +72,11 @@ background: linear-gradient(304deg, rgba(43,204,208,1) 32%, rgba(13,189,46,1) 54
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    
+
+   
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
 </body>
 </html>
