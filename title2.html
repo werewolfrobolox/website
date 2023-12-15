@@ -26,17 +26,27 @@ margin: auto;
 .body1 {
   text-align: center;
 }
+#text1,#text2{
+  text-align: end;
+
+}
+#navbar{
+  color: #fff;
+
+
+}
+
 
 
     </style>
 </head>
 <body id="background" >
-  <nav  class="navbar nav justify-content-start   " >
+  <nav id="navbar" class="navbar nav justify-content-start    " >
         
     <li><div id="logo" class ="text-start "><img width="98px" height="35px" src="assets/homepage/logo-removebg-preview.png" class="" ></div></li>
     
     <li class="nav-item">
-      <a id="Home" class="nav-link active text-light" aria-current="page" href="#">Home</a>
+      <a id="Home" class="nav-link active text-light" aria-current="page" href="the project.html">Home</a>
     </li>
     <li class="nav-item">
       <a id="Types" class="nav-link text-light" href="title2.html">Types</a>
@@ -53,13 +63,70 @@ margin: auto;
       <h1>Types of Cyberbullying</h1>
     </div>
 
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="2000">
             <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+          <div id="text1" class="carousel-caption d-none d-md-block ">
+           <h5>Hate speech: 
+           </h5>
+           <p>
+            using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender, or sexual orientation.
+           </p>
+           </div>
+          
+          
+
+          
+         
+          <div class="carousel-item" data-bs-interval="2000">
             <img id="threats" src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
+            <div>
+            <div  id="text2" class="carousel-caption d-none d-md-block">
+              <h5>Online threats:</h5>
+              <p>Sending messages or posts that include threats of physical harm, violence, or intimidation.</p>
+            </div>
+            
+            </div>
+          </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block ">
+           <h5>Hate speech: 
+           </h5>
+           <p>
+            Using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender, or sexual orientation.
+           </p>
+           </div>
+          
+          
+
+          
+         
+          <div class="carousel-item" data-bs-interval="2000">
+            <img id="threats" src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
+            <div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Online threats:</h5>
+              <p>sending messages or posts that include threats of physical harm, violence, or intimidation.</p>
+            </div>
+            
+            </div>
           </div>
         
         </div>
@@ -73,8 +140,6 @@ margin: auto;
         </button>
       </div>
 
-    
-  
 
    
 
