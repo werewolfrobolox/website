@@ -26,14 +26,30 @@ margin: auto;
 .body1 {
   text-align: center;
 }
-#text1,#text2{
-  text-align: end;
+
+.carousel-caption{
+  top: 100;
+  bottom: 0;
+  font-size: small;
+}  
+  
+#hate_speech_desc {
+  font-size: smaller;
+}
+#text1,#text2
+{
+  font-family: monospace;
+}
+
+  
+
+#navbar{
+  background-color: #122c12;
+
 
 }
-#navbar{
-  color: #fff;
-
-
+#Prevention,#Home,#Types,#Causes_and_Effects{
+  font-family: monospace;
 }
 
 
@@ -60,21 +76,26 @@ margin: auto;
     </nav>
 
     <div class="container-fluid body1">
+      <br>
       <h1>Types of Cyberbullying</h1>
+      <h2>Direct</h2>
+
     </div>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
+            
           </div>
-          <div id="text1" class="carousel-caption d-none d-md-block ">
-           <h5>Hate speech: 
-           </h5>
-           <p>
-            using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender, or sexual orientation.
+          
+          <div id="text1" class="carousel-caption d-none d-md-block  ">
+            
+           <h6 id="hate_speech_top">Hate speech: </h6>
+           <p id="hate_speech_desc">
+            using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender & sexual orientation.
            </p>
-           </div>
+          </div>
           
           
 
@@ -84,7 +105,7 @@ margin: auto;
             <img id="threats" src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
             <div>
             <div  id="text2" class="carousel-caption d-none d-md-block">
-              <h5>Online threats:</h5>
+              <h6>Online threats:</h6>
               <p>Sending messages or posts that include threats of physical harm, violence, or intimidation.</p>
             </div>
             
@@ -101,13 +122,16 @@ margin: auto;
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <br>
+      <h2 style="text-align: center;"> Proxy</h2>
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-caption d-none d-md-block ">
-           <h5>Hate speech: 
+          <div id="text1" class="carousel-caption d-none d-md-block">
+           <h5 >
            </h5>
            <p>
             Using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender, or sexual orientation.
@@ -121,7 +145,7 @@ margin: auto;
           <div class="carousel-item" data-bs-interval="2000">
             <img id="threats" src="assets/types/direct/threats.jpg" class="d-block w-100" alt="...">
             <div>
-            <div class="carousel-caption d-none d-md-block">
+            <div id="text2" class="carousel-caption d-none d-md-block">
               <h5>Online threats:</h5>
               <p>sending messages or posts that include threats of physical harm, violence, or intimidation.</p>
             </div>
