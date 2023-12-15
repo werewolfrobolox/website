@@ -23,6 +23,14 @@ margin: auto;
 
 }
 
+#carouselExample2{
+  /* max-width: 600px;
+  max-height: 400px; */
+  width:50%;
+margin: auto;
+
+}
+
 .body1 {
   text-align: center;
 }
@@ -90,16 +98,16 @@ margin: auto;
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img id="hatespeech" src="assets/types/direct/hate_speech.jpg" class="d-block w-100" alt="...">
+            <div id="text1" class="carousel-caption d-none d-md-block  ">
             
+              <h6 id="hate_speech_top">Hate speech: </h6>
+              <p id="hate_speech_desc">
+               using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender & sexual orientation.
+              </p>
+             </div>
           </div>
           
-          <div id="text1" class="carousel-caption d-none d-md-block  ">
-            
-           <h6 id="hate_speech_top">Hate speech: </h6>
-           <p id="hate_speech_desc">
-            using online platforms to promote discrimination, prejudice, or violence based on factors such as race, ethnicity, religion, gender & sexual orientation.
-           </p>
-          </div>
+          
           
           
 
@@ -129,19 +137,19 @@ margin: auto;
 
       <br>
       <h2 style="text-align: center;"> Proxy</h2>
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img id="degradation" src="assets/types/proxy/degradation.jpg" class="d-block w-100" alt="...">
+            <div id="text3" class="carousel-caption d-none d-md-block">
+              <h5 >Degradation:
+              </h5>
+              <p>
+               using cruel gossips or rumours to damage someone’s reputation or friendship with others
+              </p>
+   
+              </div>   
           </div>
-          <div id="text3" class="carousel-caption d-none d-md-block">
-           <h5 >Degradation:
-           </h5>
-           <p>
-            using cruel gossips or rumours to damage someone’s reputation or friendship with others
-           </p>
-
-           </div>
           
           
 
@@ -149,28 +157,34 @@ margin: auto;
          
           <div class="carousel-item" data-bs-interval="2000">
             <img id="false_reporting" src="assets/types/proxy/false_reporting.jpg" class="d-block w-100" alt="...">
-            <div>
-            <div id="text5" class="carousel-caption d-none d-md-block">
+            
+            <div id="text5" class="carousel-caption d-none d-md-block mt-3">
+              <br/>
               <h5>False reporting:</h5>
               <p>encouraging or paying someone to file false reports against a target, leading to the suspension or banning of their online accounts.
               </p>
             </div>
-            
+        
             </div>
+
           <div class="carousel-item" data-bs-interval="2000">
             <img id="harrasment_websites" src="assets/types/proxy/harassment_websites.jpg" class="d-block w-100" alt="...">
-            <div>
-            <div id="text6" class="carousel-caption d-none d-md-block">
+            
+            <div id="text6" class="carousel-caption d-none d-md-block mt-3">
+              <br/>
+
               <h5>Harassment Websites:</h5>
               <p> Creating or supporting websites or forums dedicated to harassing a specific individual, providing a platform for others to join in the harassment.
-                .</p>
+              </p>
             </div>
-            
+           
             </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img id="ddos" src="assets/types/proxy/ddos.jpg" class="d-block w-100" alt="...">
-            <div>
-            <div id="text4" class="carousel-caption d-none d-md-block">
+            
+            <div id="text4" class="carousel-caption d-none d-md-block mt-3">
+              <br/>
+
               <h5>Distributed Denial of Service (DDoS) Attacks:</h5>
               <p>Paying for or orchestrating DDoS attacks against a target's online presence, causing disruption and inconvenience.
               </p>
@@ -179,16 +193,18 @@ margin: auto;
             </div>
           </div>
         
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    
 
 
    
